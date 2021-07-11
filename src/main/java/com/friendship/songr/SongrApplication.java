@@ -8,6 +8,10 @@ public class SongrApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SongrApplication.class, args);
+
+HelloController control=new HelloController();
+
+control.hello();
 	}
 
 }
