@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>songer</title>
+  <link th:href="@{/style/style.css}" rel="stylesheet"/>
+  <link th:href="@{/style/index.css}" rel="stylesheet"/>
+
+</head>
+<body>
+<header>
+  <p style="color: aliceblue" th:text="'capitalize=  '+ ${name}"></p>
+
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="/capitalize/hello">Capitalize</a></li>
+    <li><a href="/Album">Album</a></li>
+  </ul>
+</header>
+<h1>Hello capitalize</h1>
+
+</body>
+</html>
